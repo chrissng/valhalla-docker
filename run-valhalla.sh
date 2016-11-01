@@ -4,5 +4,5 @@ docker run \
   --name valhalla \
   -d \
   -h valhalla \
-  -p 127.0.0.1:8002:8002 \
+  -p 8002:8002 \
   wouldgo/valhalla
