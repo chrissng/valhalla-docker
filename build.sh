@@ -15,4 +15,4 @@ fi
 #  --force-rm \
 #  .
 
-docker-compose build valhalla
+docker-compose build --force-rm valhalla
