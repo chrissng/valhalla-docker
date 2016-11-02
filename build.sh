@@ -10,7 +10,9 @@ if [ ! -d "$DIRECTORY" ]; then
     --branch=master https://github.com/valhalla/conf.git
 fi
 
-docker build \
-  --tag wouldgo/valhalla \
-  --force-rm \
-  .
+#docker build \
+#  --tag wouldgo/valhalla \
+#  --force-rm \
+#  .
+
+docker-compose build valhalla
