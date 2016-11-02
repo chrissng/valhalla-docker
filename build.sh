@@ -15,4 +15,4 @@ fi
 #  --force-rm \
 #  .
 
-docker-compose build --force-rm valhalla
+docker-compose build --force-rm --no-cache valhalla
